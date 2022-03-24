@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_management_system/PatientDashboardDetails.dart';
 import 'package:hospital_management_system/PatientScreen.dart';
+import 'package:hospital_management_system/Payment.dart';
 import 'package:hospital_management_system/PharmacyDashboard.dart';
+import 'package:hospital_management_system/StatScreen.dart';
 
 import 'DoctorDashboard.dart';
 import 'DoctorPatientDetails.dart';
+import 'PastPatientScreen.dart';
 
 
 void main() {
@@ -20,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PatientDashboard(),
+      home: Payment(),
     );
   }
 }
